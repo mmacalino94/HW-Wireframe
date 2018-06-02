@@ -1,0 +1,94 @@
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+  }
+
+  html  {
+    margin-left: 15%;
+    margin-right: auto;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+  }
+  
+  header {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  nav {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  Header, Nav, Section, Aside, Footer { 
+    background: #ebebeb;
+  }
+  
+  Article {
+    color: #ebebeb;
+    background: #777;
+    height: 220px;
+    width: 430px;
+    margin-top: 20px;
+    /* overflow: auto; */
+  }
+
+  h1, p {
+    background: #ebebeb;
+    color: #777;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+  }
+
+  aside, section {
+    height: 300px;
+    padding: 20px;
+    /* margin-left: 30px; */
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    width: 475px;
+  }
+
+  section {
+    float: left;
+    /* width: 495px; */
+    /* overflow: auto; */
+  }
+
+  aside {
+    float: right;
+    /* width: 450px; */
+    position: relative;
+  }
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    margin-top: 25px;
+  }
+  
+  /* .clearfix {
+    overflow: auto;
+  } */
+
+  /* .clearfix::after {
+    overflow: auto;
+} */
+
+/* .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
